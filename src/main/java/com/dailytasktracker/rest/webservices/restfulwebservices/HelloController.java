@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@CrossOrigin(origins="http://localhost:4200")
-@CrossOrigin(origins="https://reactfrontforbootback.herokuapp.com/")
+@CrossOrigin(origins="*")
 public class HelloController {
 
 	@GetMapping("/")
