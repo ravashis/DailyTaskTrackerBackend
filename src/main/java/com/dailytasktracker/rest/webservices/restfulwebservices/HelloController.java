@@ -18,6 +18,7 @@ public class HelloController {
 	
 	@GetMapping("/user/{name}")
 	public User getUserHello(@PathVariable String name) {
+		//throw new RuntimeException("Something went Wrong");
 		return new User(name); 
 	}
 }
